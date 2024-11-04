@@ -1,0 +1,31 @@
+.login-container {
+    width: 400px;
+    background-color:wheat;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 1px 1px 10px black;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group input {
+    border-radius: 9px;
+    /* to remove the outline of the input border */
+    outline: none;
+    /* to remove the border of the input */
+    border:none;
+    width: 70%;
+    padding: 10px;
+}
+.login-container button {
+    padding: 10px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

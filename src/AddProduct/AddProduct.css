@@ -1,0 +1,26 @@
+.product-container{
+    max-width:400px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    padding: 20px;
+    /*to place the object at the center we use the margin:auto(this margin will only move the object to the top center)*/
+    margin:auto;
+    margin-top:10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.326);
+}
+.product-container .form-group input{
+    border-radius: 9px;
+    /* to remove the outline of the input border */
+    outline: none;
+    /* to remove the border of the input */
+    border:none;
+}
+.product-container button{
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
